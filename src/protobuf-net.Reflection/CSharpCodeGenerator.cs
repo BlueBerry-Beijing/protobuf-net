@@ -750,20 +750,20 @@ namespace ProtoBuf.Reflection
         {
             switch (field.type)
             {
-                case FieldDescriptorProto.Type.TypeBool:
-                case FieldDescriptorProto.Type.TypeDouble:
-                case FieldDescriptorProto.Type.TypeFixed32:
-                case FieldDescriptorProto.Type.TypeFixed64:
-                case FieldDescriptorProto.Type.TypeFloat:
-                case FieldDescriptorProto.Type.TypeInt32:
-                case FieldDescriptorProto.Type.TypeInt64:
-                case FieldDescriptorProto.Type.TypeSfixed32:
-                case FieldDescriptorProto.Type.TypeSfixed64:
-                case FieldDescriptorProto.Type.TypeSint32:
-                case FieldDescriptorProto.Type.TypeSint64:
-                case FieldDescriptorProto.Type.TypeUint32:
-                case FieldDescriptorProto.Type.TypeUint64:
-                    return true;
+                //case FieldDescriptorProto.Type.TypeBool:
+                //case FieldDescriptorProto.Type.TypeDouble:
+                //case FieldDescriptorProto.Type.TypeFixed32:
+                //case FieldDescriptorProto.Type.TypeFixed64:
+                //case FieldDescriptorProto.Type.TypeFloat:
+                //case FieldDescriptorProto.Type.TypeInt32:
+                //case FieldDescriptorProto.Type.TypeInt64:
+                //case FieldDescriptorProto.Type.TypeSfixed32:
+                //case FieldDescriptorProto.Type.TypeSfixed64:
+                //case FieldDescriptorProto.Type.TypeSint32:
+                //case FieldDescriptorProto.Type.TypeSint64:
+                //case FieldDescriptorProto.Type.TypeUint32:
+                //case FieldDescriptorProto.Type.TypeUint64:
+                //    return true;
                 default:
                     return false;
             }
